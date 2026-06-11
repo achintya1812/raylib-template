@@ -1,0 +1,13 @@
+# Build output
+build/
+
+# Compiled artifacts (in case of in-source builds)
+*.exe
+*.o
+*.obj
+
+# Editor / tooling
+.vscode/
+.idea/
+.cache/
+compile_commands.json
