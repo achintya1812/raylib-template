@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "configure",
+      "type": "shell",
+      "command": "cmake",
+      "args": ["--preset", "debug"],
+      "problemMatcher": []
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "cmake",
+      "args": ["--build", "--preset", "debug"],
+      "group": { "kind": "build", "isDefault": true },
+      "dependsOn": ["configure"],
+      "dependsOrder": "sequence",
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
