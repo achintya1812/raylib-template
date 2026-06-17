@@ -19,3 +19,7 @@ build\game.exe
 ```
 
 The first configure downloads raylib and the first build compiles it. After that just rerun `cmake --build build`.
+
+OR 
+
+Clone the repository and open it in VSCode and simply press F5 to debug and run. 
