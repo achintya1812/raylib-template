@@ -5,6 +5,7 @@ build/
 *.exe
 *.o
 *.obj
+*.ini
 
 # Editor / tooling
 .vscode/
